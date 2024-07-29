@@ -1,4 +1,4 @@
-package DTO;
+package com.example.ProductService.DTO;
 
 
 import lombok.Getter;

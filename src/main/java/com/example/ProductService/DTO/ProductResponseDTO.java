@@ -1,9 +1,10 @@
-package DTO;
+package com.example.ProductService.DTO;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.SplittableRandom;
+import java.util.UUID;
 
 //DTO: Data transfer Object
 // We give only the attributes needed to be sent as a response of our API

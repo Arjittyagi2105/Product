@@ -1,8 +1,8 @@
-package Service;
+package com.example.ProductService.Service;
 
-import Client.FakeStoreClient;
-import DTO.FakeStoreProductResponseDTO;
-import Entity.Product;
+import com.example.ProductService.Client.FakeStoreClient;
+import com.example.ProductService.DTO.FakeStoreProductResponseDTO;
+import com.example.ProductService.Entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

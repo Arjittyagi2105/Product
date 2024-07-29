@@ -1,15 +1,13 @@
-package Mapper;
+package com.example.ProductService.Mapper;
 
-import DTO.ProductResponseDTO;
-import Entity.Product;
-
-import java.util.List;
+import com.example.ProductService.DTO.ProductResponseDTO;
+import com.example.ProductService.Entity.Product;
 
 //Mapper classes are used to convert entities to their respective DTOs.
 public class ProductEntityDTOMapper {
     public static ProductResponseDTO convertProductEntityToProductResponseDTO(Product product) {
         ProductResponseDTO ResponseDTO = new ProductResponseDTO();
-        ResponseDTO.setProductId(product.getProductId());
+        ResponseDTO.setProductId(product.getId());
         ResponseDTO.setCategory(product.getCategory());
         ResponseDTO.setDescription(product.getDescription());
         ResponseDTO.setTitle(product.getTitle());

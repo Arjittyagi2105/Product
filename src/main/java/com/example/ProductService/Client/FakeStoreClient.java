@@ -1,6 +1,6 @@
-package Client;
+package com.example.ProductService.Client;
 
-import DTO.FakeStoreProductResponseDTO;
+import com.example.ProductService.DTO.FakeStoreProductResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.ResponseEntity;

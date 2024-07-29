@@ -1,9 +1,8 @@
-package Controller;
+package com.example.ProductService.Controller;
 
 
-import DTO.FakeStoreProductResponseDTO;
-import Entity.Product;
-import Service.ProductService;
+import com.example.ProductService.DTO.FakeStoreProductResponseDTO;
+import com.example.ProductService.Service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -25,9 +24,5 @@ public class ProductController {
         //in http response for front end and hence we create a separate dto object to store
         //only the attributes required for front end and wrap that in the response entity,
         return ResponseEntity.ok(products);
-    }
-    @GetMapping("/")
-    public String home() {
-        return "Hello World!";
     }
 }

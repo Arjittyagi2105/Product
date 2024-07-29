@@ -1,4 +1,4 @@
-package Entity;
+package com.example.ProductService.Entity;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;
@@ -6,8 +6,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Product {
-    private int productId;
+@Entity(name = "ECOM_PRODUCT")
+public class Product extends BaseModel{
     private String title;
     private double price;
     private String description;

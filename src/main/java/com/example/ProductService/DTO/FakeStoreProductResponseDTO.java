@@ -1,4 +1,4 @@
-package DTO;
+package com.example.ProductService.DTO;
 
 //DTO for returning to client class
 //here the names of the attributes should be exactly the same as coming from third party system
@@ -6,8 +6,6 @@ package DTO;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.SplittableRandom;
 
 //Serialization: process of converting an object to json string
 //Desrialization: process of converting json string to an object
